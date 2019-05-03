@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input} from '@angular/core';
 
 @Component({
   selector: 'app-ris-component',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ris-component.component.css']
 })
 export class RisComponentComponent implements OnInit {
+
+  @Input() risultato : Number;
 
   constructor() { }
 
